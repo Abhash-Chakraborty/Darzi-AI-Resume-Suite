@@ -17,6 +17,7 @@ type SectionEntry = {
   linkLabel?: string
   linkUrl?: string
 }
+
 type Section = {
   id: string
   name: string
