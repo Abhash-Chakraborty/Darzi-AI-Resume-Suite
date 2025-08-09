@@ -22,7 +22,13 @@
     │   │   └── page.tsx
     │   ├── globals.css
     │   ├── layout.tsx
-    │   └── page.tsx
+    │   ├── page.tsx
+    │   ├── sign-in/
+    │   │   └── [[...sign-in]]/
+    │   │       └── page.tsx
+    │   └── sign-up/
+    │       └── [[...sign-up]]/
+    │           └── page.tsx
     ├── components/
     │   ├── animated-group.tsx
     │   ├── feature-card.tsx
@@ -40,6 +46,7 @@
     ├── eslint.config.mjs
     ├── lib/
     │   └── utils.ts
+    ├── middleware.ts
     ├── next.config.ts
     ├── package-lock.json
     ├── package.json
